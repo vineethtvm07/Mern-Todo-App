@@ -5,7 +5,7 @@ import Todos from './Todos';
 
 export default function Home() {
 
-const API_URL = "http://localhost:3007/todos"
+const API_URL = "https://mern-todo-app-1ws5.vercel.app/todos"
 
 const [toDos, setToDos] = useState([]);
 const [newTodo, setNewTodo] = useState("");
